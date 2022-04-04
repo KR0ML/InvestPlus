@@ -1,0 +1,48 @@
+._h1 {
+    font-family: 'Next Art';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+._h2 {
+    font-family: 'Next Art';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+._h3 {
+    font-family: 'Next Art';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+._main-400 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+._main-500 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+._big-main-400{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+._big-main-500 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
