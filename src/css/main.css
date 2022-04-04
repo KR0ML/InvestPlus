@@ -201,7 +201,7 @@ small {
         url(../img/about-background.jpg) left/50%,
         var(--primary);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 50%, cover;
 }
 
 .about__wrapper img {
@@ -214,7 +214,8 @@ small {
     flex-direction: column;
     color: var(--on-pm-and-sc);
 
-    padding: 260px 277px 240px 360px;
+    /* padding: 260px 277px 240px 360px; */
+    padding: 13.542vw 14.427vw 12.500vw 18.750vw;
 }
 
 .about__top {
@@ -226,7 +227,7 @@ small {
 }
 
 .about__container p {
-    max-width: 390px;
+    max-width: 380px;
     text-align: end;
 }
 
@@ -243,6 +244,11 @@ hr {
     align-items: flex-start;
 
     margin-top: 20px;
+}
+
+.about__bottom ._main-500 {
+    max-width: 150px;
+    text-align: start;
 }
 
 /*================================== 
@@ -294,12 +300,13 @@ hr {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    border: 2px solid var(--on-background);
-    max-width: 410px;
+    border: 3px solid var(--on-background);
+    max-width: 320px;
     width: 100%;
 
-    padding: 20px 20px 70px 20px;
+    padding: 63px 60px 70px 60px;
 
     margin: 32px 40px;
 }
@@ -317,7 +324,9 @@ hr {
 }
 
 .cooperation__content-item small {
-    padding-bottom: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 /*================================== 
